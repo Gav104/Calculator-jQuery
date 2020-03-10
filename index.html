@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>jQuery Calcuator</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="calculator">
+		<form name="form">
+			<input class="calculator-display">
+		</form>
+		<table>
+			<tr>
+				<td colspan="3"><input type="button" class="operator" value="C" onclick="c()"></td>
+				<td><input type="button" class="operator" value="/" onclick="insert('/')"></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="7" onclick="insert(7)"></td>
+				<td><input type="button" value="8" onclick="insert(8)"></td>
+				<td><input type="button" value="9" onclick="insert(9)"></td>
+				<td><input type="button" class="operator" value="x" onclick="insert('*')"></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="4" onclick="insert(4)"></td>
+				<td><input type="button" value="5" onclick="insert(5)"></td>
+				<td><input type="button" value="6" onclick="insert(6)"></td>
+				<td><input type="button" class="operator" value="-" onclick="insert('-')"></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="1" onclick="insert(1)"></td>
+				<td><input type="button" value="2" onclick="insert(2)"></td>
+				<td><input type="button" value="3" onclick="insert(3)"></td>
+				<td><input type="button" class="operator" value="+" onclick="insert('+')"></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="0" onclick="insert(0)"></td>
+				<td><input type="button" value="." onclick="insert('.')"></td>
+				<td colspan="2"><input type="button" class="operator" value="=" onclick="equals()"></td>
+			</tr>
+			</tr>
+		</table>
+	</div>
+</body>
+
+</html>

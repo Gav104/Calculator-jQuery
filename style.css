@@ -1,0 +1,52 @@
+*{	
+	max-width: 500px;
+	margin: auto;
+	font-size: 35px;
+	background: black;
+		
+}
+
+.calculator {
+	margin: auto;
+	padding: 20px;
+}
+
+.form {
+	margin: auto;
+}
+
+.calculator-display {
+	margin: auto;
+	background-color: grey;
+	height: 80px;
+	border: none;
+	color: white;
+	text-align: right;
+	border-radius: 15px;
+}
+
+input[type=button] {
+	width: 80px;
+	height: 80px;
+	margin: 2px;
+	color: white;
+	border: none;
+	border-radius: 75%;
+	background-color: grey;
+}
+
+input[class="operator"] {
+	color: white;
+	background-color: orange;
+	border-radius: 75%;
+}
+
+input[value="C"] {
+	width: 160px;
+	border-radius: 35px;
+}
+
+input[value="="] {
+	width: 160px;
+	border-radius: 35px;
+}
